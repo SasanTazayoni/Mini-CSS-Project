@@ -234,7 +234,7 @@ a:hover {
     padding: 40px 30px;
 }
 
-.action-header p {
+.action__header p {
     color: var(--color-tertiary);
     margin: 5px 0;
 }

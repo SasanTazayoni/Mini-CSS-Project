@@ -8,73 +8,75 @@
     <title>Home page</title>
 </head>
 <body>
-    <nav class="block--dark nav">
-        <a class="nav-brand" href="./index.html">
-            <img class="nav__logo" src="./images/logo.jpg" alt="">
-            <h3 class="nav__logo-text">Logo text</h3>
-        </a>
-        <ul class="list nav__list">
-            <li class="nav__link">
-                <a href="./index.html">Home</a>
-            </li>
-            <li class="nav__link">
-                <a href="./pages/about.html">About</a>
-            </li>
-            <li class="nav__link">
-                <a href="./pages/contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <section class="block--dark">
-        <article class="container hero">
-            <header>
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <button class="btn">Sign up</button>
-            </header>
-            <picture class="hero-image__container">
-                <img class="hero-image" src="./images/heropic.jpg" alt="A picture of a colourful sunset by the beach">
-            </picture>
-        </article>
-    </section>
-    <section class="block--light">
-        <header class="block__header">
-            <h2>Some random information.</h2>
-        </header>
-        <article class="fruits">
-            <figure class="fruit">
-                <img class="randompic" src="./images/pineapple.jpg" alt="A picture of a pineapple">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure class="fruit">
-                <img class="randompic" src="./images/oranges.jpg" alt="A picture of many oranges">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure class="fruit">
-                <img class="randompic" src="./images/bananas.jpg" alt="A picture of a banana bunch">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure class="fruit">
-                <img class="randompic" src="./images/apples.jpg" alt="A picture of many apples">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-        </article>
-    </section>
-    <section class="block--grey">
-        <article class="container quote-block">
-            <blockquote class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. </br>
-            <span class="quote-signoff">-Thor</span></blockquote>
-        </article>
-    </section>
-    <section class="block--light action-block__container">
-        <article class="container action-block">
-            <header class="action-header">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for your product by clicking that button right over there!</p>
-            </header>
-            <button class="btn action__btn">Sign up</button>
-        </article>
-    </section>
+    <header>
+        <nav class="block--dark nav">
+            <div class="nav-brand">
+                <img class="nav__logo" src="./images/logo.jpg" alt="">
+                <h3 class="nav__logo-text">Logo text</h3>
+            </div>
+            <ul class="list nav__list">
+                <li class="nav__link">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="nav__link">
+                    <a href="./pages/about.html">About</a>
+                </li>
+                <li class="nav__link">
+                    <a href="./pages/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="block--dark">
+            <article class="container hero">
+                <div>
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button class="btn">Sign up</button>
+                </div>
+                <picture class="hero-image__container">
+                    <img class="hero-image" src="./images/heropic.jpg" alt="A picture of a colourful sunset by the beach">
+                </picture>
+            </article>
+        </section>
+        <section class="block--light">
+            <h2 class="block__header">Some random information.</h2>
+            <div class="fruits">
+                <figure class="fruit">
+                    <img class="randompic" src="./images/pineapple.jpg" alt="A picture of a pineapple">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure class="fruit">
+                    <img class="randompic" src="./images/oranges.jpg" alt="A picture of many oranges">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure class="fruit">
+                    <img class="randompic" src="./images/bananas.jpg" alt="A picture of a banana bunch">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure class="fruit">
+                    <img class="randompic" src="./images/apples.jpg" alt="A picture of many apples">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="block--grey">
+            <div class="container quote-block">
+                <blockquote class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. </br>
+                <cite class="quote-signoff">-Thor</cite></blockquote>
+            </div>
+        </section>
+        <section class="block--light action-block__container">
+            <div class="container action-block">
+                <div class="action__header">
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for your product by clicking that button right over there!</p>
+                </div>
+                <button class="btn action__btn">Sign up</button>
+            </div>
+        </section>
+    </main>
     <footer class="block--dark">
         <p class="footer-block">
             &copy; <a href="https://github.com/SasanTazayoni" target="_blank">Sasan the Great</a>
